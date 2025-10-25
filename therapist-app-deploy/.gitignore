@@ -1,0 +1,65 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Node
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+oracle-data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# OCI Config (contains sensitive keys)
+.oci/
+oci_config.json
+*.pem
+*.key
+
+# Secrets
+secrets/
+credentials/
+
+# Build artifacts
+*.tar
+*.gz
+*.zip
+
+# Temporary files
+tmp/
+temp/
+*.tmp
